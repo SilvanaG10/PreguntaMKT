@@ -1,0 +1,45 @@
+*{
+    transition: all 0.25S;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+	background: url("../assets/FONDO PREGUNTAS.png");
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-size: 140%;
+}
+
+#Encabezado{
+  width: 80vw;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.opcion{
+	width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+	background: white;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.opcion:hover{
+	background-color: lightgray;
+}

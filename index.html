@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="icon" href="assets/Logo_P.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/Winwheel.min.js"></script>
+    <link href="css/Index_css.css" rel="stylesheet">
+    <title>PREGUNTADOS</title>
+  </head>
+  <body>
+    <br><br><br><br><br><br><br><br><br><br>
+    <center><canvas id="canvas" height="500" width="500"></canvas></center>
+    <script src="js/functions.js"></script>
+    <br>
+    <center><button class="reproductor" value="Girar" onclick="miRuleta.startAnimation();">Girar</button></center>
+    <script>
+      let boton = document.querySelector(".reproductor")
+  
+      boton.addEventListener("click", () => {
+        let etiquetaAudio = document.createElement("audio")
+        etiquetaAudio.setAttribute("src", "assets/ruleta - Trivia Crack.mp3")
+        etiquetaAudio.play()
+      })
+    </script>
+    <br /><br />
+  </body>
+</html>
