@@ -64,7 +64,7 @@ async function seleccionarOpción(index) {
     const music = new Audio('../../assets/intro - Trivia Crack.mp3');
     music.play();
     await Swal.fire({
-      title: "Juego terminado, regresa al tablero",
+      title: "Juego terminado,regresa al tablero",
       text: `Tu puntaje fue de: ${puntaje}/${baseDePreguntas.length}`,
     });
     INDEX_PREGUNTA = 0;
